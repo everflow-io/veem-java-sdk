@@ -37,6 +37,10 @@ public final class VeemContext
         {
             this.baseUrl = baseUrl;
         }
+
+        public String getBaseUrl() {
+            return baseUrl;
+        }
     }
 
     public static class VeemContextBuilder
